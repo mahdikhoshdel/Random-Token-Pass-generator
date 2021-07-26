@@ -33,6 +33,7 @@ for i in range(0,3):
                 file.write(hint + " : " + password)
                 file.write("\n")
                 file.close()
+                print(".\n.\n.\n.\n.\nPassword saved!")
             break
         else:
             break
@@ -49,6 +50,7 @@ for i in range(0,3):
                 file.write(hint + " : " + token)
                 file.write("\n")
                 file.close()
+                print(".\n.\n.\n.\n.\nToken saved!")
             break
         else:
             break
