@@ -2,9 +2,9 @@ import random
 import string
 import secrets
 
-def get_random_alphanumeric_string(letters_count, digits_count):
-    sample_str = ''.join((random.choice(string.ascii_letters) for i in range(letters_count)))
-    sample_str += ''.join((random.choice(string.digits) for i in range(digits_count)))
+def get_random_alphanumeric_string(number_of_letters, number_of_digits):
+    sample_str = ''.join((random.choice(string.ascii_letters) for i in range(number_of_letters)))
+    sample_str += ''.join((random.choice(string.digits) for i in range(number_of_digits)))
 
     # Convert string to list and shuffle it to mix letters and digits
     sample_list = list(sample_str)
